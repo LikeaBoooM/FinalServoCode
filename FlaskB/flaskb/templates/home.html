@@ -1,0 +1,32 @@
+
+{% extends "layout.html" %}
+{% block content %}
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ post.author.username }}</a>
+              <small class="text-muted">{{ post.date_posted.strftime('%Y-%m-%d') }}</small>
+
+            </div>
+            <h2><a class="article-title" href="{{ url_for('post',post_id = post.id )}}">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.content }}</p>
+            <p class="mr-1" href="#">Longitude :  {{post.longitude}}</p>
+            <p class="mr-1" href="#">Latitude : {{post.latitude }}</p>
+            <p class="mr-1" href="#">Author Latitude : {{post.author.actually_latitude }}</p>
+            <p class="mr-1" href="#">Author Longitude : {{post.author.actually_longitude }}</p>
+            <p class="mr-1" href="#">Elevation : {{post.elevation | round(2, 'floor')}}  </p>
+            <p class="mr-1" href="#">Distance : {{post.method | round(2, 'floor')}} km  </p>
+            <p class="mr-1" href="#">Range :  {{post.author.range}}  </p>
+            {% if post.author.range < post.method %}
+            <p class="mr-1" href="#">Point is out of range  </p>
+            {%else%}
+            <p class="mr-1" href="#">Point is in range</p>
+            {%endif%}
+            
+
+            
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

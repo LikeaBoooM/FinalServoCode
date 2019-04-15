@@ -1,0 +1,14 @@
+lazy==1.3
+GDAL==2.1.3
+bottle==0.12.13
+rtree==0.8.3
+gunicorn==19.7.1
+pip install Flask
+pip install Flask-sqlalchemy
+pip install Flask-bcrypt
+pip install Flask-login
+pip install pandas
+pip install geopy
+pip install flask-wtf
+pip install googlemaps
+pip install elevation
