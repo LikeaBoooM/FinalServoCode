@@ -16,7 +16,7 @@ class tesGeopy(unittest.TestCase):
         x2 = d.longitude
         y2 = d.latitude
         distance = self.obliczOdlegloscA(x1, y1, x2, y2)
-        expectedDistance = 77.58283254164151te
+        expectedDistance = 77.58283254164151
         self.assertEqual(expectedDistance, distance)
 
     def obliczOdlegloscA(self, x2,y2,x1,y1):
