@@ -138,12 +138,8 @@ You can easly delete the post. Just click on the title and choose option delete
 
 
 ### Contact me, if you have any problems
-* email : mborkowski010@gmail,com
-* phone number : 508 681 793
-
-I am available 24/7
+* email : mborkowski010@gmail.com
+* faster way: https://www.facebook.com/borkos44
 
 
 
-
-   
