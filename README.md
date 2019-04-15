@@ -131,7 +131,8 @@ In the post you will see:
 * Post's elevation
 * Distance from the current user
 * Information whether the location is within the range provided during registration 
-####You can edit the scope of the current user and the post will update automatically
+
+### You can edit the scope of the current user and the post will update automatically
 
 You can easly delete the post. Just click on the title and choose option delete
 
