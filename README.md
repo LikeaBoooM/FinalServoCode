@@ -17,7 +17,7 @@ Application showing the current distance from the entered location points
 * Bootstrap - great UI boilerplate for modern web apps
 * Geopy - Client for several popular geocoding web services.
 * HTML - Create your own Website
-* GITHUB - https://github.com/LikeaBoooM/Servo
+
 
 
 
@@ -27,7 +27,7 @@ install :
 
 https://www.python.org/downloads/release/python-373/
 
-Go to your command line and run this senences :
+Go to your commandline and run this senences :
 
 pip install Flask
 pip install Flask-sqlalchemy
