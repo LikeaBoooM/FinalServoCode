@@ -43,7 +43,7 @@ pip install elevation
 ### Development
 
 * Google Geolocation Api - returns a location and accuracy radius based on information about cell
-* Geopy - Client for several popular geocoding web services.
+* Geopy - Client for several popular geocoding web services
 
 
 ## Unit testing
@@ -134,7 +134,7 @@ In the post you will see:
 
 ### You can edit the scope of the current user and the post will update automatically
 
-You can easly delete the post. Just click on the title and choose option delete
+You can easly delete the post, just click on the title and choose option delete
 
 
 
